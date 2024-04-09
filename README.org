@@ -1,0 +1,31 @@
+* Token Composition: A Graph-Based Exploration of Ethereum Event Logs
+
+This repository contains a Solidity smart contract that creates a
+sequence of tokenising meta-events that produce a directed cycle in
+the filtered token graph.  See the paper for additional details.
+
+** Requirements
+
+The project requires [[https://github.com/gakonst/foundry][Foundry]].  To install or update:
+
+#+BEGIN_SRC bash
+  curl -L https://foundry.paradigm.xyz | bash
+  foundryup
+#+END_SRC
+
+** Usage
+
+To run the project:
+
+#+BEGIN_SRC bash
+  cd erc20-wrapper-token
+  forge build
+  forge test
+  forge script script/WrapperTokenV2.s.sol
+#+END_SRC
+
+** Copyright
+
+© 2024 [[https://www.martinharrigan.ie][Martin Harrigan]].
+
+All Rights Reserved.

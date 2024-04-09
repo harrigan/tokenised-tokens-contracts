@@ -1,0 +1,5 @@
+[profile.default]
+allow_paths = ["../"]
+libs = ["xtra"] # These should only be used by scripts and tests.
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
