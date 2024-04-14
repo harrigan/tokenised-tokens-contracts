@@ -1,4 +1,4 @@
-* Token Composition: A Graph-Based Exploration of Ethereum Event Logs
+* Token Composition: A Graph Based on EVM Logs
 
 This repository contains a Solidity smart contract that creates a
 sequence of tokenising meta-events that produce a directed cycle in
